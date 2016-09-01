@@ -8,7 +8,7 @@ Simple wrapper for running shell commands from Ruby.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'backtick'
+gem "backtick"
 ```
 
 And then execute:
