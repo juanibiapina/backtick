@@ -44,7 +44,7 @@ Backtick::Command.run("false")
 ```
 
 ```
-Backtick::Command::StatusError: Command `false` failed with exit status: 1
+Backtick::Command::StatusError: Command `false` failed with exit status: 1 and no output
 ```
 
 ## Development
