@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/globocom/backtick"
   spec.license       = "MIT"
 
+  spec.files         = %w(CODE_OF_CONDUCT.md LICENSE.txt README.md Rakefile) + Dir["{spec,lib}/**/*.{rb,RB}"]
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
@@ -21,4 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "guard-rspec", "~> 4.7"
 end

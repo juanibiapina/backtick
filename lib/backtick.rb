@@ -1,5 +1,6 @@
 require "backtick/version"
 
 module Backtick
-  # Your code goes here...
 end
+
+require "backtick/command"
