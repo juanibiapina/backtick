@@ -35,6 +35,8 @@ Backtick::Command.run("ls -l") do |line|
 end
 ```
 
+### Errors
+
 An exception will be thrown if the command fails:
 
 ```ruby
