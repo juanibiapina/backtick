@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["juanibiapina@gmail.com"]
 
   spec.summary       = %q{Simple wrapper for running shell commands from Ruby}
-  spec.homepage      = "https://github.com/globocom/backtick"
+  spec.homepage      = "https://github.com/juanibiapina/backtick"
   spec.license       = "MIT"
 
   spec.files         = %w(CODE_OF_CONDUCT.md LICENSE.txt README.md Rakefile) + Dir["{spec,lib}/**/*.{rb,RB}"]
